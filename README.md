@@ -1,4 +1,4 @@
-# Tokyo Night Tmux
+# Tokyo Night Tmux (FORKED FROM janoamaral/tokyo-night-tmux)
 
 ![example workflow](https://github.com/janoamaral/tokyo-night-tmux/actions/workflows/pre-commit.yml/badge.svg?branch=master)
 
@@ -80,7 +80,7 @@ tmux set @tokyo-night-tmux_pane_id_style hsquare
 tmux set @tokyo-night-tmux_zoom_id_style dsquare
 ```
 
-Alternatively, add these lines to your  `.tmux.conf`:
+Alternatively, add these lines to your `.tmux.conf`:
 
 ```bash
 set -g @tokyo-night-tmux_window_id_style digital
@@ -118,6 +118,7 @@ set -g @tokyo-night-tmux_show_music 1
 ```
 
 #### Netspeed widget
+
 ![Snap netspeed](snaps/netspeed.png)
 
 ```bash
